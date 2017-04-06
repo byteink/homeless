@@ -5,8 +5,8 @@
 #include <vector>
 #include <deque>
 
-// 对于类模板，还可以为模板参数定义缺省值，这些值就被成为缺省模板实参
-//  而且它们还可以引用之前的模板参数，例如std::vector<T>引用了前面的模板参数T
+// 对于类模板，还可以为模板参数定义缺省值，这些值就被称为缺省模板实参
+// 而且它们还可以引用之前的模板参数，例如std::vector<T>引用了前面的模板参数T
 template <typename T, typename CONT = std::vector<T>>
 class Stack {
 private:
